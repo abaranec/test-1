@@ -1,4 +1,4 @@
 println "Hello"
-qq = db.liveTable("DbInternal", "ProcessEventLog").where("Date=today()")
+qq = db.i("DbInternal", "ProcessEventLog").where("Date=currentDateNy()")
 
 source("Hello2.groovy")
